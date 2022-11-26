@@ -1,12 +1,19 @@
 package com.SDA.BacaliAndrei.advanced.coding.oop.ex2;
 
-public class Circle {
+public class Circle implements Movable {
     private Point2D center;
     private Point2D point;
 
     public Circle(Point2D center, Point2D point) {
         this.center = center;
         this.point = point;
+    }
+
+    @Override
+    public void move(MoveDirection moveDirection) {
+        this.center.move(moveDirection);
+        this.point.move(moveDirection);
+
     }
 
     public double getRadius(){
