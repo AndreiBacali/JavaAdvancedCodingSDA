@@ -1,6 +1,6 @@
 package com.SDA.BacaliAndrei.advanced.coding.oop.ex2;
 
-public class Circle implements Movable {
+public class Circle implements Movable , Resizable {
     private Point2D center;
     private Point2D point;
 
@@ -14,6 +14,11 @@ public class Circle implements Movable {
         this.center.move(moveDirection);
         this.point.move(moveDirection);
 
+    }
+
+    @Override
+    public void resize(double resizeFactor) {
+        point.move(new MoveDirection(point.getX()*resizeFactor, point.getY()*resizeFactor ));
     }
 
     public double getRadius(){
