@@ -1,6 +1,7 @@
 package com.SDA.BacaliAndrei.advanced.coding.oop.ex2;
 
 public class MoveDirection {
+
     private double x;
     private double y;
 
@@ -23,5 +24,13 @@ public class MoveDirection {
 
     public void setY(double y) {
         this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "MoveDirection{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
