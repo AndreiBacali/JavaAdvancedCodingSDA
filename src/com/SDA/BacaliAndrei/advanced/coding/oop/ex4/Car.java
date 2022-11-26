@@ -41,7 +41,7 @@ public enum Car {
     public boolean isPremium(){
         return !isRegular;
     }
-    public boolean isFasterThan(Car otherCar){
+    public boolean isFasterThat(Car otherCar){
         int result=Double.compare(this.power,otherCar.power);
         return result > 0;
     }

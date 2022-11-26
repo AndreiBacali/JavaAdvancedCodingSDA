@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Power for Ferrari :"+Car.FERRARI.getPower());
         System.out.println("Check if Ferrari is regular :"+Car.FERRARI.isRegular());
         System.out.println("Check if Ferrari is premium :"+Car.FERRARI.isPremium());
-        System.out.println("Check if Ferrari is faster than BMW :"+Car.FERRARI.isFasterThan(Car.BMW));
+        System.out.println("Check if Ferrari is faster than BMW :"+Car.FERRARI.isFasterThat(Car.BMW));
     }
 }
