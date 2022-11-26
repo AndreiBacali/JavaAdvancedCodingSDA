@@ -1,7 +1,7 @@
 package com.SDA.BacaliAndrei.advanced.coding.oop.ex2;
 
-import java.awt.*;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Create a MoveDirection class with fields double x, double y as well as getters, setters and constructor.

@@ -135,4 +135,10 @@ public class CarService {
                 })
                 .collect(Collectors.toList());
     }
+    public List<String>getAllModels(){
+        return cars.stream()
+                .map(car -> car.getModel())//lista de modele
+                .distinct()//reduce toate duplicatele
+                .collect(Collectors.toList());
+    }
 }
