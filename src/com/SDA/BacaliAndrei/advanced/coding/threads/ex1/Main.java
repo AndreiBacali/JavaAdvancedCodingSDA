@@ -1,4 +1,4 @@
-package com.SDA.BacaliAndrei.advanced.coding.threads;
+package com.SDA.BacaliAndrei.advanced.coding.threads.ex1;
 
 import java.util.Random;
 

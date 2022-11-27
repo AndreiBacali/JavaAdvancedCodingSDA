@@ -1,4 +1,4 @@
-package com.SDA.BacaliAndrei.advanced.coding.threads;
+package com.SDA.BacaliAndrei.advanced.coding.threads.ex1;
 
 public class MyThread extends Thread {
     @Override
